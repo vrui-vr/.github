@@ -56,8 +56,9 @@ Applications using the Vrui VR toolkit are written without a particular input en
 
 ## Documentation and Support
 
-Independent user and contriburor documentation, support files, and disucssion boards are associeted directly with each VRUI Organization repository.  For help related to the VRUI Developer Toolkit or a speciciic VRUI application, visit the applications Github repository.  Links to all VRUI community repositories appear below in the Repositories section of this page.  
+We are currently in the process of migrating the VRUI Developer Toolkit and all VRUI applications from it's original CVS reporository to GitHub.  When our migration is complete, independent user and contriburor documentation, support files, and disucssion boards will be associeted directly with each VRUI Organization repository. 
 
+During this migration, the original, combined VRUI documentation and help forums can be access at the [VRUI Toolkit Overview and Documentation Website](https://web.cs.ucdavis.edu/~okreylos/ResDev/Vrui/).
 
 <!--
 
