@@ -58,9 +58,8 @@ Applications using the Vrui VR toolkit are written without a particular input en
 
 We are currently in the process of migrating the Vrui Developer Toolkit and all Vrui applications from it's original CVS reporository to GitHub.  When our migration is complete, independent user and contriburor documentation, support files, and disucssion boards will be associeted directly with each Vrui Organization repository. 
 
-During this migration, the original, combined Vrui documentation and help forums can be access at the [Vrui Toolkit Overview and Documentation Website](https://web.cs.ucdavis.edu/~okreylos/ResDev/Vrui/).
-
 <!--
+During this migration, the original, combined Vrui documentation and help forums can be access at the [Vrui Toolkit Overview and Documentation Website](https://web.cs.ucdavis.edu/~okreylos/ResDev/Vrui/).
 
 **Here are some ideas to get you started:**
 
