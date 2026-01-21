@@ -46,7 +46,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 ## 5. Weapons Policy
 
 No weapons will be allowed at the Vrui Community events, community spaces, or in other spaces covered by the scope of this Code of Conduct. Weapons include but are not limited to guns, explosives (including fireworks), and large knives such as those used for hunting or display, as well as any other item used for the purpose of causing injury or harm to others. Anyone seen in possession of one of these items will be asked to leave immediately, and will only be allowed to return without the weapon. Community members are further expected to comply with all state and local laws on this matter.
-<!-- Potentially add a conference section ?  Otherwise this seems out of left field in terms of just code contributions -->
+
 ## 6. Consequences of Unacceptable Behavior
 
 Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
@@ -67,7 +67,6 @@ Additionally, community organizers are available to help community members engag
 
 If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Vrui Board of Directors with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. 
 
-<!-- Should this be combined with the contact info section at all? -->
 
 ## 9. Scope
 
@@ -84,7 +83,9 @@ If you have any additional inquiries or questions, please email datalab@ucdavis.
 The Citizen Code of Conduct is distributed by [Stumptown Syndicate](http://stumptownsyndicate.org) under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/). 
 
 Portions of text are derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
-<!-- update version history -->
+
+_Revision 2.4. Posted 21 Jan 2026._
+
 _Revision 2.3. Posted 6 March 2017._
 
 _Revision 2.2. Posted 4 February 2016._
