@@ -2,11 +2,11 @@
 
 ## 1. Purpose
 
-A primary goal of the VRUI Community is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+A primary goal of the Vrui Community is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
 
 This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
 
-We invite all those who participate in the VRUI Community to help us create safe and positive experiences for everyone.
+We invite all those who participate in the Vrui Community to help us create safe and positive experiences for everyone.
 
 ## 2. Open [Source/Culture/Tech] Citizenship
 
@@ -34,7 +34,7 @@ The following behaviors are considered harassment and are unacceptable within ou
  * Violence, threats of violence or violent language directed against another person.
  * Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
  * Posting or displaying sexually explicit or violent material.
- * Posting or threatening to post other people's personally identifying information ("doxing").
+ * Posting or threatening to post other people's personally identifying information ("doxxing").
  * Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
  * Inappropriate photography or recording.
  * Inappropriate physical contact. You should have someone's consent before touching them.
@@ -45,8 +45,8 @@ The following behaviors are considered harassment and are unacceptable within ou
 
 ## 5. Weapons Policy
 
-No weapons will be allowed at the VRUI Community events, community spaces, or in other spaces covered by the scope of this Code of Conduct. Weapons include but are not limited to guns, explosives (including fireworks), and large knives such as those used for hunting or display, as well as any other item used for the purpose of causing injury or harm to others. Anyone seen in possession of one of these items will be asked to leave immediately, and will only be allowed to return without the weapon. Community members are further expected to comply with all state and local laws on this matter.
-
+No weapons will be allowed at the Vrui Community events, community spaces, or in other spaces covered by the scope of this Code of Conduct. Weapons include but are not limited to guns, explosives (including fireworks), and large knives such as those used for hunting or display, as well as any other item used for the purpose of causing injury or harm to others. Anyone seen in possession of one of these items will be asked to leave immediately, and will only be allowed to return without the weapon. Community members are further expected to comply with all state and local laws on this matter.
+<!-- Potentially add a conference section ?  Otherwise this seems out of left field in terms of just code contributions -->
 ## 6. Consequences of Unacceptable Behavior
 
 Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
@@ -57,7 +57,7 @@ If a community member engages in unacceptable behavior, the community organizers
 
 ## 7. Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. datalab@ucdavis.edu.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible via datalab@ucdavis.edu.
 
 
 
@@ -65,26 +65,26 @@ Additionally, community organizers are available to help community members engag
 
 ## 8. Addressing Grievances
 
-If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify VRUI Board of Directors with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. 
+If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify Vrui Board of Directors with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies. 
 
-
+<!-- Should this be combined with the contact info section at all? -->
 
 ## 9. Scope
 
-We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues--online and in-person--as well as in all one-on-one communications pertaining to community business.
+We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues—online and in-person—as well as in all one-on-one communications pertaining to community business.
 
 This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to adversely affect the safety and well-being of community members.
 
-## 10. Contact info
+## 10. Contact Us
 
-datalab@ucdavis.edu
+If you have any additional inquiries or questions, please email datalab@ucdavis.edu or visit [DataLab's website](https://datalab.ucdavis.edu/contact-us/).
 
 ## 11. License and attribution
 
 The Citizen Code of Conduct is distributed by [Stumptown Syndicate](http://stumptownsyndicate.org) under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/). 
 
-Portions of text derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
-
+Portions of text are derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
+<!-- update version history -->
 _Revision 2.3. Posted 6 March 2017._
 
 _Revision 2.2. Posted 4 February 2016._
