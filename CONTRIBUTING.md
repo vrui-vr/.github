@@ -16,10 +16,10 @@ See the [Table of Contents](#table-of-contents) for details regarding how Vrui c
 
 - [Asking Questions](#asking-questions)
 - [Requesting Changes](#requesting-changes)
-- [Making Changes](#making-changes)
 - [Forking and Branching](#forking-and-branching)
+- [Making Changes](#making-changes)
 - [Creating a Pull Request](#creating-a-pull-request)
-- [Style Guide](#styleguides)
+- [Style Guide](#style-guide)
 
 
 ## Asking Questions
@@ -27,20 +27,18 @@ See the [Table of Contents](#table-of-contents) for details regarding how Vrui c
 Before asking a question:
 - Search for existing issues in relevant repositories that might help you. If you have found a suitable issue and still need clarification, you can write your question in the comments of issues. 
 
-> [!TIP]
-> If you're searching for issues, check out the Issue page in each relevant repository on GitHub. ![](GitHub_Header_Issues.png)
-
-<!-- I found a different formatting for markdown messages/alerts, but I'm not sure how it appears when launched - let me know your prefereence! link: https://github.com/orgs/community/discussions/16925 -->
+??? info "Heads up!"
+    If you're searching for issues, check out the Issue page in each relevant repository on GitHub. ![](references/GitHub_Header_Issues.png)
 
 - Search for existing posts in the Discussions forum of relevant repositories.
 
-> [!TIP]
-> If you're searching for discussions, check out the Discussions page in each relevant repository on GitHub. ![alt text](GitHub_Header_Discussions.png)
+???+ tip
+    If you're searching for discussions, check out the Discussions page in each relevant repository on GitHub. ![alt text](references/GitHub_Header_Discussions.png)
 
 If you you still need clarification and would like to ask a question, please do so in the Discussion forum. 
 
-> [!NOTE]  
-> If you’re unsure whether to open a Discussion or an Issue, use the following guideline. Use Discussions for general questions, such as how or why a feature works, or how to use or get started with Vrui. Use Issues for feature requests and bug reports. A quick rule of thumb: if your topic requires changes to code by Vrui maintainers, open an Issue; otherwise, start a Discussion. 
+???+ tip
+    If you’re unsure whether to open a Discussion or an Issue, use the following guideline. Use Discussions for general questions, such as how or why a feature works, or how to use or get started with Vrui. Use Issues for feature requests and bug reports. A quick rule of thumb: if your topic requires changes to code by Vrui maintainers, open an Issue; otherwise, start a Discussion. 
 
 - Open an Discussion.
 - Provide as much context as possible regarding the problems you're running into.
@@ -63,20 +61,17 @@ Before opening a bug report, please make sure:
 
 To submit a bug: 
 
-- Open an Issue. 
-- Explain the behavior you would expect and the actual behavior.
-- Describe the *reproduction steps* that someone else can follow to recreate the bug on their own. This usually includes your code. Good bug reports isolate the problem and include a reduced test case.
-- Include any error messages or stack traces.
-- Include relevant system details.
+1. Open an Issue. 
+2. Explain the behavior you would expect and the actual behavior.
+3. Describe the *reproduction steps* that someone else can follow to recreate the bug on their own. This usually includes your code. Good bug reports isolate the problem and include a reduced test case.
+4. Include any error messages or stack traces.
+5. Include relevant system details.
 
 Once the bug is filed:
 
 - The project team will label the issue accordingly.
-- After submission, maintainers will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark be labeled the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they can be reproduced.
-- If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be implemented by someone.
+- After submission, maintainers will triage and address your issue. Keep an eye out for requests for more info, especially if we need help reproducing your bug! 
 
-
-<!-- Will this tagging system be used for Vrui? -->
 
 ### Suggesting Enhancements
 
@@ -99,18 +94,6 @@ Similar to reporting bugs, enhancement suggestions belong in GitHub Issues.
 
 Small documentation fixes can be included in any PR that touches relevant code. Keep documentation consistent with code, updating examples and CLI commands when you change functionality.
 
-## Making changes
-
-Make small, focused commits with clear messages. Update or add documentation when functionality changes. 
-
-To push your branch to your fork:
-
-```sh
-git add .
-git commit -m "<issue-number>: short description of change"
-git push origin <issue-number-description>
-```
-
 ## Forking and Branching
 
 ??? info "Heads up!"
@@ -132,14 +115,40 @@ git merge upstream/main
 ```
 <!-- Or: https://github.com/vrui/<repo>.git -->
 
-4. Create a branch on your fork, from origin/main
+4. Create a branch on your fork, from origin/main.
 ```sh
 git checkout -b <issue-number-description>
 ```
 
-> [!NOTE]
-> Use descriptive branch names, starting with the issue number and followed by a short description. This helps reviewers trace work back to issues.
+Each branch and subsequent pull request should fix only one issue.
 
+??? note
+    Use descriptive branch names, starting with the issue number and followed by a short description. This helps reviewers trace work back to issues.
+
+## Making changes
+
+Make small, focused commits with clear messages. Update or add documentation when functionality changes. 
+
+To push your branch to your fork:
+
+```sh
+git add .
+git commit -m "<issue-number>: short description of change"
+git push origin <issue-number-description>
+```
+
+
+## Creating a Pull Request
+
+1. Go to your fork on [GitHub](github.com) and click `Compare & pull request`.
+2. Set the target branch to the `dev` branch of the Vrui repository you're contributing to.
+3. Use a clear PR title and a descriptive body that explains:
+    - What you changed
+    - Why it is needed
+    - Any user-facing changes
+    - Testing instructions or reproduction steps
+4. If your change fixes or is related to an issue, link the issue in the PR .
+5. Ensure documentation is updated when applicable.
 
 ### Linking Pull Requests to Issues
 
@@ -163,26 +172,14 @@ Closes #<issue-number>
 
 This message links your PR to a specific issue and will close the issue when the PR is merged by Vrui maintainers.
 
-> [!TIP]
-> For more detailed instructions and alternative issue linking methods, please refer to the following GitHub guide: [Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue) 
+??? info "Heads up!"
+    For more detailed instructions and alternative issue linking methods, please refer to the following GitHub guide: [Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue) 
 
 ### PR Reviews and Merges
 
 PRs are reviewed by the Vrui organization maintainers and once approved, will be merged into main for deployment (after CI passes).
 
 
-## Creating a Pull Request
-
-1. Go to your fork on [GitHub](github.com) and click `Compare & pull request`.
-2. Set the target branch to the `dev` branch of the Vrui repository you're contributing to.
-3. Use a clear PR title and a descriptive body that explains:
-    - What you changed
-    - Why it is needed
-    - Any user-facing changes
-    - Testing instructions or reproduction steps
-4. If your change fixes or is related to an issue, link the issue in the PR .
-5. Ensure documentation is updated when applicable.
-
-## Styleguide
+## Style Guide
 
 Generally, follow the existing code style and conventions used throughout repositories. When in doubt, emulate the surrounding code. 
