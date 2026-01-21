@@ -20,6 +20,7 @@ See the [Table of Contents](#table-of-contents) for details regarding how Vrui c
 - [Making Changes](#making-changes)
 - [Creating a Pull Request](#creating-a-pull-request)
 - [Style Guide](#style-guide)
+- [Attributions](#attributions)
 
 
 ## Asking Questions
@@ -183,3 +184,7 @@ PRs are reviewed by the Vrui organization maintainers and once approved, will be
 ## Style Guide
 
 Generally, follow the existing code style and conventions used throughout repositories. When in doubt, emulate the surrounding code. 
+
+## Attributions
+
+Portions of text are derived from [contributing.md](https://contributing.md/example/).
