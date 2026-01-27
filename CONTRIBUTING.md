@@ -31,17 +31,17 @@ Before asking a question:
 - Search for existing issues in relevant repositories that might help you. If you have found a suitable issue and still need clarification, you can write your question in the comments of issues.
 
 > [!TIP]
-> If you're searching for issues, check out the Issue page in each relevant repository on GitHub. ![](references/GitHub_Header_Issues.png)
+> If you're searching for issues, check out the Issue page in each relevant repository on GitHub. ![Location of Issues](assets/GitHub_Header_Issues.png)
 
 - Search for existing posts in the Discussions forum of relevant repositories.
 
 > [!TIP]
-> If you're searching for discussions, check out the Discussions page in each relevant repository on GitHub. ![alt text](references/GitHub_Header_Discussions.png)
+> If you're searching for discussions, check out the Discussions page in each relevant repository on GitHub. ![Location of Discussions](assets/GitHub_Header_Discussions.png)
 
 If you you still need clarification and would like to ask a question, please do so in the Discussion forum.
 
 > [!TIP]
-> If you’re unsure whether to open a Discussion or an Issue, use the following guideline. Use Discussions for general questions, such as how or why a feature works, or how to use or get started with Vrui. Use Issues for feature requests and bug reports. A quick rule of thumb: if your topic requires changes to code by Vrui maintainers, open an Issue; otherwise, start a Discussion.
+> If you're unsure whether to open a Discussion or an Issue, read the following guidelines. Use Discussions for general questions, such as how or why a feature works, or how to use or get started with Vrui. Use Issues for feature requests and bug reports. A quick rule of thumb: if your topic requires changes to code by Vrui maintainers, open an Issue; otherwise, start a Discussion.
 
 - Open a Discussion.
 - Provide as much context as possible regarding the problems you're running into.

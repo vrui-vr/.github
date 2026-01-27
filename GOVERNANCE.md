@@ -4,7 +4,7 @@ The VRUI Ogranization develops and deploys open source software for collaborativ
 
 The software developed and maintained by the VRUI Organization is released under the MIT (or similarly permissive) open source license, developed openly, and hosted in public GitHub repositories under the [VRUI:  Virtual Reality User Inteface organization](https://github.com/vrui-vr). Examples of Project Software include the [VRUI Developer Tookit](https://github.com/vrui-vr/vrui), and the [3D LIDAR Viewer](https://github.com/vrui-vr/lidarviewer).
 
-The services run by the VRUI Organization consist of the develpment of VR and XR framworkds and applications for collaborative, scientific investegation of 3D data as well as hosting of virtual and phsyical events for the community of VRUI users and develpers as well as the wider VR/XR community.  
+The services run by the VRUI Organization consist of the develpment of VR and XR framworkds and applications for collaborative, scientific investegation of 3D data as well as hosting of virtual and phsyical events for the community of VRUI users and develpers as well as the wider VR/XR community.
 
 The VRUI Organization is formally affiliated with the [UC Davis DataLab](https://datalab.ucdavis.edu), which serves as its administrative home and includes partners from a range of government, academic, and commercial organizations.   VRUI is currently financially supported by a grant from the [Alfred P. Sloan Foundation](https://sloan.org/) and through funds provided by the Office of the Provost of the University of California, Davis.
 
@@ -22,14 +22,14 @@ The Project is lead by a Steering Committe that is currently comprised of the fo
 
 * [Dr. Frank Klassner](http://www.csc.villanova.edu/~klassner/), Department of Computer Science, Villanova University.
 * [Dr. Oliver Kreylos](https://datalab.ucdavis.edu/team/), University of California Davis, DataLab
-* [Dr. William Sherman](https://www.nist.gov/people/william-sherman), United States National Institute of Standards and Technology](
+* [Dr. William Sherman](https://www.nist.gov/people/william-sherman), United States National Institute of Standards and Technology]
 * [Dr. Carl Stahmer](https://datalab.ucdavis.edu/team/), University of California Davis, DataLab
 * [Dr. Simon Su](https://www.nist.gov/people/simon-su), United States National Institute of Standards and Technology
 
 
 Decision making is conducted by the Steering Committee using a Consensus decision-making process under which participants work together to develop proposals for actions that achieve a broad acceptance. Consensus is reached when everyone in the group assents to a decision.  A minority of individual members may choose to "Stand Aside" as part of any decision-making process and concensus will still be determined to have been achieved.
 
-The VRUI Organization Steering Committee is responsible for all business decisions affecting the organization, for developing and maintining the Organization's Development Roadmap as well as the Development Roadmap for the [VRUI Toolkit](https://github.com/vrui-vr/vrui), and for receiving, reviweing, and acting upon any reports of any violations of the VRUI Organization [Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md). 
+The VRUI Organization Steering Committee is responsible for all business decisions affecting the organization, for developing and maintining the Organization's Development Roadmap as well as the Development Roadmap for the [VRUI Toolkit](https://github.com/vrui-vr/vrui), and for receiving, reviweing, and acting upon any reports of any violations of the VRUI Organization [Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md).
 
 Additional activities undertaken by the Steering Committe include:
 
@@ -53,7 +53,3 @@ Members of the Techni al Oversight Committee, in addition to the BDFL, are appoi
 
 * **BDFL**: [Dr. Oliver Kreylos](https://datalab.ucdavis.edu/team/), University of California Davis, DataLab
 * [Andrew Grace](https://www1.villanova.edu/university/liberal-arts-sciences/programs/computing-sciences/faculty/biodetail.html?mail=andrew.grace@villanova.edu&xsl=bio_long), Department of Computer Science, Villanova University
-
-
-
-
