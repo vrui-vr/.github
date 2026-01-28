@@ -8,8 +8,7 @@ The Vrui Toolkit is a comprehensive development framework designed to facilitate
 
 ### Vrui Applications
 
-Applications are developed using the Developer Toolkit and deployed as part of Vrui installation to provide specific XR experiences. For example, the [LiDAR Viewer](https://github.com/vrui-vr/lidarviewer) is an interactive application for processing, visualizing, and analyzing large 3D point cloud data produced by terrestrial or airborne LiDAR scanning. Links to the repositories of Vrui applications that are released as Open Source Software (OSS) and whose developer(s) commit to upholding our [Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md) appear in Vrui Organizations lit of repositories on this page.  
-<!-- is "Vrui Organizations lit" correct phrasing? not sure what this is -->
+Applications are developed using the Developer Toolkit and deployed as part of Vrui installation to provide specific XR experiences. For example, the [LiDAR Viewer](https://github.com/vrui-vr/lidarviewer) is an interactive application for processing, visualizing, and analyzing large 3D point cloud data produced by terrestrial or airborne LiDAR scanning. Links to the repositories of Vrui applications that are released as Open Source Software (OSS) and whose developer(s) commit to upholding our [Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md) appear in Vrui Organizations list of repositories on this page.  
 
 ### The Vrui Community
 Our community consists of Vrui users and developers.  (As of March, 2025, we are aware of approximately 2,000 Vrui users). Please see our [Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md) for detailed information about Vrui values and standards.   
@@ -60,10 +59,6 @@ flowchart LR
     click B4 "https://github.com/vrui-vr/3dvisualizer" "3D Visualizer"
 
 ```
-<!-- title box options -->
-<!-- titleC[[<span style="font-size:20px; font-weight:bold">Interacting with Applications</span>]] -->
-<!-- titleB[[<span style="font-size:20px; font-weight:bold">Interacting with Applications</span>]] -->
-
 ## Vrui Developer Toolkit Architecture
 
 Vrui supports the development of correct, portable, and usable applications across various environments, from desktop systems to CAVEs or head-mounted displays, and Augmented Reality systems.
@@ -100,16 +95,4 @@ Applications using the Vrui VR toolkit are written without a particular input en
 
 ## Documentation and Support
 
-The Vrui Developer Toolkit and many Vrui applications can be found on GitHub. Independent user and contributor documentation, support files, issues, and discussion boards are associated directly with each Vrui Organization repository. Please refer to the [Contributing Guide](https://github.com/vrui-vr/.github/blob/main/CONTRIBUTING.md) for details on how to ask questions, report bugs, suggest enhancements, and more. In addition, please refer to the [Documentation Website](https://vrui-vr.github.io/docs/), which is currently under construction, for more detailed documentation instructions. Currently supported applications on the website include: VRUI, Kinect, and ARSandbox.
-
-<!--
-During this migration, the original, combined Vrui documentation and help forums can be access at the [Vrui Toolkit Overview and Documentation Website](https://web.cs.ucdavis.edu/~okreylos/ResDev/Vrui/).
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+The Vrui Developer Toolkit and many Vrui applications can be found on GitHub. Independent user and contributor documentation, support files, issues, and discussion boards are associated directly with each Vrui Organization repository. Please refer to the [Contributing Guide](https://github.com/vrui-vr/.github/blob/main/CONTRIBUTING.md) for details on how to ask questions, report bugs, suggest enhancements, and more. In addition, please refer to the [Documentation Website](https://vrui-vr.github.io/docs/), which is currently under construction, for more detailed documentation instructions. 
