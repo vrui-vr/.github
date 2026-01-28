@@ -46,10 +46,10 @@ Vrui applications provide specific XR user experiences such as immersive 3D vide
 
     subgraph C[Interacting with Applications]
         direction LR
-        C1((<img src='./profile/img/VR_keckcaves.jpg' width='60'/><br/>CAVE))
-        C2((<img src='./profile/img/ARSandbox.jpg' width='60'/><br/>Sandbox))
-        C3((<img src='./profile/img/VR_goggles.png' width='60'/><br/>Headset))
-        C4((<img src='./profile/img/VR_laptop.jpg' width='60'/><br/>Laptop/PC))
+        C1((<img src='img/VR_keckcaves.jpg' width='60'/><br/>CAVE))
+        C2((<img src='img/ARSandbox.jpg' width='60'/><br/>Sandbox))
+        C3((<img src='img/VR_goggles.png' width='60'/><br/>Headset))
+        C4((<img src='img/VR_laptop.jpg' width='60'/><br/>Laptop/PC))
     end
 ``` -->
 
@@ -87,7 +87,7 @@ flowchart LR
     click B4 "https://github.com/vrui-vr/3dvisualizer" "3D Visualizer"
 
 ```
-
+<!-- title box options -->
 <!-- titleC[[<span style="font-size:20px; font-weight:bold">Interacting with Applications</span>]] -->
 <!-- titleB[[<span style="font-size:20px; font-weight:bold">Interacting with Applications</span>]] -->
 
@@ -127,7 +127,7 @@ Applications using the Vrui VR toolkit are written without a particular input en
 
 ## Documentation and Support
 
-The Vrui Developer Toolkit and many Vrui applications can be found on GitHub. Independent user and contributor documentation, support files, issues, and discussion boards are associated directly with each Vrui Organization repository. Please refer to the [Contributing Guide](https://github.com/vrui-vr/.github/blob/main/CONTRIBUTING.md) for details on how to ask questions, report bugs, suggest enhancements, and more. 
+The Vrui Developer Toolkit and many Vrui applications can be found on GitHub. Independent user and contributor documentation, support files, issues, and discussion boards are associated directly with each Vrui Organization repository. Please refer to the [Contributing Guide](https://github.com/vrui-vr/.github/blob/main/CONTRIBUTING.md) for details on how to ask questions, report bugs, suggest enhancements, and more. In addition, please refer to the [Documentation Website](https://vrui-vr.github.io/docs/), which is currently under construction, for more detailed documentation instructions. Currently supported applications on the website include: VRUI, Kinect, and ARSandbox.
 
 <!--
 During this migration, the original, combined Vrui documentation and help forums can be access at the [Vrui Toolkit Overview and Documentation Website](https://web.cs.ucdavis.edu/~okreylos/ResDev/Vrui/).
