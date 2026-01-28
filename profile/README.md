@@ -8,7 +8,7 @@ The Vrui Toolkit is a comprehensive development framework designed to facilitate
 
 ### Vrui Applications
 
-Applications are developed using the Developer Toolkit and deployed as part of Vrui installation to provide specific XR experiences. For example, the [LiDAR Viewer](https://github.com/vrui-vr/lidarviewer) is an interactive application for processing, visualizing, and analyzing large 3D point cloud data produced by terrestrial or airborne LiDAR scanning. Links to the repositories of Vrui applications that are released as Open Source Software (OSS) and whose developer(s) commit to upholding the [Vrui Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md) appear in Vrui Organizations lit of repositories on this page.  
+Applications are developed using the Developer Toolkit and deployed as part of Vrui installation to provide specific XR experiences. For example, the [LiDAR Viewer](https://github.com/vrui-vr/lidarviewer) is an interactive application for processing, visualizing, and analyzing large 3D point cloud data produced by terrestrial or airborne LiDAR scanning. Links to the repositories of Vrui applications that are released as Open Source Software (OSS) and whose developer(s) commit to upholding our [Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md) appear in Vrui Organizations lit of repositories on this page.  
 <!-- is "Vrui Organizations lit" correct phrasing? not sure what this is -->
 
 ### The Vrui Community
@@ -27,6 +27,69 @@ The Vrui Developer Toolkit provides a base level of computational elements that 
 Vrui applications provide specific XR user experiences such as immersive 3D video experiences, the ability to inhabit a scene created from LiDAR data, or a virtual meeting room. User experiences are managed and delivered via Vrui applications, which pass information between the Vrui Developer Toolkit and XR devices.
 
 <!-- ![Vrui System Architecture](img/vrui_overview.png) -->
+<!-- 
+```mermaid
+  flowchart TD;
+    A[Vrui Developer Toolkit \n vrui-vr/vrui]->B;
+    B->C;
+    subgraph B[Vrui Applications]
+        direction LR
+        B1((ARSandbox))
+        B2((Kinect))
+        B3((LiDAR Viewer))
+        B4((3D Visualizer))
+        B5((Interactive Protein Folding))
+        B6((Network Viewer))
+        B7((Nanotech Construction))
+        B8((Etc...))
+    end
+
+    subgraph C[Interacting with Applications]
+        direction LR
+        C1((<img src='./profile/img/VR_keckcaves.jpg' width='60'/><br/>CAVE))
+        C2((<img src='./profile/img/ARSandbox.jpg' width='60'/><br/>Sandbox))
+        C3((<img src='./profile/img/VR_goggles.png' width='60'/><br/>Headset))
+        C4((<img src='./profile/img/VR_laptop.jpg' width='60'/><br/>Laptop/PC))
+    end
+``` -->
+
+```mermaid
+%%{init: { "securityLevel": "loose", "flowchart": { "htmlLabels": true } } }%%
+flowchart LR
+    A[Vrui Developer Toolkit<br/><code>vrui-vr/vrui</code>]
+    B
+    C
+
+    A --> B --> C
+
+
+    subgraph B[Applications]
+        direction LR
+        B1((ARSandbox))
+        B2((Kinect))
+        B3((LiDAR Viewer))
+        B4((3D Visualizer))
+        B5((Etc))
+    end
+
+    subgraph C[VR Modalities]
+        direction LR
+        C1[<img src="img/ARSandbox.jpg" width="80" height="80"/><br/>Sandbox]
+        C2[<img src="img/VR_keckcaves.jpg" width="60" height="60"/><br/>CAVE]
+        C3[<img src="img/VR_goggles.png" width="60" height="60"/><br/>Headset]
+        C4[<img src="img/VR_laptop.jpg" width="60" height="60"/><br/>Laptop/PC] 
+    end
+
+    click A "https://github.com/vrui-vr/vrui" "Vrui"
+    click B1 "https://github.com/vrui-vr/arsandbox" "ARSandbox"
+    click B2 "https://github.com/vrui-vr/kinect" "Kinect"
+    click B3 "https://github.com/vrui-vr/lidarviewer" "LiDAR Viewer"
+    click B4 "https://github.com/vrui-vr/3dvisualizer" "3D Visualizer"
+
+```
+
+<!-- titleC[[<span style="font-size:20px; font-weight:bold">Interacting with Applications</span>]] -->
+<!-- titleB[[<span style="font-size:20px; font-weight:bold">Interacting with Applications</span>]] -->
 
 ## Vrui Developer Toolkit Architecture
 
