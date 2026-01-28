@@ -26,33 +26,6 @@ The Vrui Developer Toolkit provides a base level of computational elements that 
 
 Vrui applications provide specific XR user experiences such as immersive 3D video experiences, the ability to inhabit a scene created from LiDAR data, or a virtual meeting room. User experiences are managed and delivered via Vrui applications, which pass information between the Vrui Developer Toolkit and XR devices.
 
-<!-- ![Vrui System Architecture](img/vrui_overview.png) -->
-<!-- 
-```mermaid
-  flowchart TD;
-    A[Vrui Developer Toolkit \n vrui-vr/vrui]->B;
-    B->C;
-    subgraph B[Vrui Applications]
-        direction LR
-        B1((ARSandbox))
-        B2((Kinect))
-        B3((LiDAR Viewer))
-        B4((3D Visualizer))
-        B5((Interactive Protein Folding))
-        B6((Network Viewer))
-        B7((Nanotech Construction))
-        B8((Etc...))
-    end
-
-    subgraph C[Interacting with Applications]
-        direction LR
-        C1((<img src='img/VR_keckcaves.jpg' width='60'/><br/>CAVE))
-        C2((<img src='img/ARSandbox.jpg' width='60'/><br/>Sandbox))
-        C3((<img src='img/VR_goggles.png' width='60'/><br/>Headset))
-        C4((<img src='img/VR_laptop.jpg' width='60'/><br/>Laptop/PC))
-    end
-``` -->
-
 ```mermaid
 %%{init: { "securityLevel": "loose", "flowchart": { "htmlLabels": true } } }%%
 flowchart LR
@@ -65,10 +38,10 @@ flowchart LR
 
     subgraph B[Applications]
         direction LR
-        B1((ARSandbox))
-        B2((Kinect))
-        B3((LiDAR Viewer))
-        B4((3D Visualizer))
+        B1((ARSandbox<br/><code>vrui-vr/arsandbox</code>))
+        B2((Kinect<br/><code>vrui-vr/kinect</code>))
+        B3((LiDAR Viewer<br/><code>vrui-vr/lidarviewer</code>))
+        B4((3D Visualizer<br/><code>vrui-vr/3dvisualizer</code>))
         B5((Etc))
     end
 
