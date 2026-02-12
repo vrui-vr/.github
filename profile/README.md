@@ -1,29 +1,29 @@
 ## What is Vrui?
 
-Vrui is both a collection of software and a community of XR developers and scientific investigators and educators who use XR for research and teaching. 
+Vrui is both a collection of software and a community of XR developers and scientific investigators and educators who use XR for research and teaching.
 
 ### The Vrui Developer Toolkit
 
-The Vrui Toolkit is a comprehensive development framework designed to facilitate the creation of immersive virtual reality applications. It provides a suite of tools and libraries that enable developers to build VR software with advanced 3D user interfaces, supporting a wide range of input devices and display systems. Vrui emphasizes flexibility and scalability, making it suitable for applications in scientific visualization, data exploration, and other fields requiring interactive 3D environments. 
+The Vrui Toolkit is a comprehensive development framework designed to facilitate the creation of immersive virtual reality applications. It provides a suite of tools and libraries that enable developers to build VR software with advanced 3D user interfaces, supporting a wide range of input devices and display systems. Vrui emphasizes flexibility and scalability, making it suitable for applications in scientific visualization, data exploration, and other fields requiring interactive 3D environments.
 
 ### Vrui Applications
 
-Applications are developed using the Developer Toolkit and deployed as part of Vrui installation to provide specific XR experiences. For example, the [LiDAR Viewer](https://github.com/vrui-vr/lidarviewer) is an interactive application for processing, visualizing, and analyzing large 3D point cloud data produced by terrestrial or airborne LiDAR scanning. Links to the repositories of Vrui applications that are released as Open Source Software (OSS) and whose developer(s) commit to upholding our [Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md) appear in Vrui Organizations list of repositories on this page.  
+Applications are developed using the Developer Toolkit and deployed as part of Vrui installation to provide specific XR experiences. For example, the [LiDAR Viewer](https://github.com/vrui-vr/lidarviewer) is an interactive application for processing, visualizing, and analyzing large 3D point cloud data produced by terrestrial or airborne LiDAR scanning. Links to the repositories of Vrui applications that are released as Open Source Software (OSS) and whose developer(s) commit to upholding our [Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md) appear in Vrui Organizations list of repositories on this page.
 
 ### The Vrui Community
-Our community consists of Vrui users and developers. As of March, 2025, we are aware of approximately 2,000 Vrui users! Please see our [Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md) for detailed information about Vrui values and standards.   
+Our community consists of Vrui users and developers. As of March, 2025, we are aware of approximately 2,000 Vrui users! Please see our [Code of Conduct](https://github.com/vrui-vr/.github/blob/main/CODE_OF_CONDUCT.md) for detailed information about Vrui values and standards.
 
 ## Vrui Framework Architecture
 
-As noted above, Vrui software elements fall into one of two classes: 
-1. The Vrui Developers Toolkit (the Vrui Core) 
-2. Vrui applications  
+As noted above, Vrui software elements fall into one of two classes:
+1. The Vrui Developers Toolkit (the Vrui Core)
+2. Vrui applications
 
-The Vrui Developer Toolkit provides a base level of computational elements that provide abstracted access to specific computational, display, and input/output hardware devices.  
+The Vrui Developer Toolkit provides a base level of computational elements that provide abstracted access to specific computational, display, and input/output hardware devices.
 
 Vrui _applications_ provide specific XR user experiences such as immersive 3D video experiences, the ability to inhabit a scene created from LiDAR data, or a virtual meeting room. User experiences are managed and delivered via Vrui applications, which pass information between the Vrui Developer Toolkit and XR devices.
 
-```mermaid
+<!-- ```mermaid -->
 %%{init: { "securityLevel": "loose", "flowchart": { "htmlLabels": true } } }%%
 flowchart LR
     A[Vrui Developer Toolkit<br/><code>vrui-vr/vrui</code>]
@@ -47,7 +47,7 @@ flowchart LR
         C1[<img src="img/ARSandbox.jpg" width="80" height="80"/><br/>Sandbox]
         C2[<img src="img/VR_keckcaves.jpg" width="60" height="60"/><br/>CAVE]
         C3[<img src="img/VR_goggles.png" width="60" height="60"/><br/>Headset]
-        C4[<img src="img/VR_laptop.jpg" width="60" height="60"/><br/>Laptop/PC] 
+        C4[<img src="img/VR_laptop.jpg" width="60" height="60"/><br/>Laptop/PC]
     end
 
     click A "https://github.com/vrui-vr/vrui" "Vrui"
@@ -57,6 +57,9 @@ flowchart LR
     click B4 "https://github.com/vrui-vr/3dvisualizer" "3D Visualizer"
 
 ```
+
+![Vrui Overview](img/vrui_overview.png)
+
 ## Vrui Developer Toolkit Architecture
 
 Vrui supports the development of correct, portable, and usable applications across various environments, from desktop systems to CAVEs or head-mounted displays, and Augmented Reality systems.
@@ -69,7 +72,7 @@ A toolkit should provide OpenGL rendering contexts that are set up in such a fas
 
 ### Distribution Abstraction
 
-As larger VR environments require more than one computer to operate, the detail aspects of distribution (number of computers, connection topology, etc.) should be hidden by the toolkit. In principle, there are at least three ways to distribute a rendering environment: 
+As larger VR environments require more than one computer to operate, the detail aspects of distribution (number of computers, connection topology, etc.) should be hidden by the toolkit. In principle, there are at least three ways to distribute a rendering environment:
 
 - **Split first**: An application is replicated on all computers and synchronized by distributing input device and ancillary data.
 - **Split middle**: A shared data structure, e.g., a scene graph, is used to transmit data from one application computer to all rendering computers.
@@ -95,4 +98,4 @@ Applications using the Vrui VR toolkit are written without a particular input en
 
 ## Documentation and Support
 
-The Vrui Developer Toolkit and Vrui applications can be found on GitHub. Independent user and contributor documentation, support files, issues, and discussion boards are associated directly with each Vrui Organization repository. Please refer to the [Contributing Guide](https://github.com/vrui-vr/.github/blob/main/CONTRIBUTING.md) for details on how to ask questions, report bugs, suggest enhancements, and more. In addition, please refer to the [Documentation Website](https://vrui-vr.github.io/) for more detailed documentation instructions. 
+The Vrui Developer Toolkit and Vrui applications can be found on GitHub. Independent user and contributor documentation, support files, issues, and discussion boards are associated directly with each Vrui Organization repository. Please refer to the [Contributing Guide](https://github.com/vrui-vr/.github/blob/main/CONTRIBUTING.md) for details on how to ask questions, report bugs, suggest enhancements, and more. In addition, please refer to the [Documentation Website](https://vrui-vr.github.io/) for more detailed documentation instructions.
