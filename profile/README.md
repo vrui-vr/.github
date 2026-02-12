@@ -25,41 +25,6 @@ Vrui _applications_ provide specific XR user experiences such as immersive 3D vi
 
 ![Vrui Overview](./img/vrui_overview.png)
 
-<!-- ```mermaid -->
-%%{init: { "securityLevel": "loose", "flowchart": { "htmlLabels": true } } }%%
-flowchart LR
-    A[Vrui Developer Toolkit<br/><code>vrui-vr/vrui</code>]
-    B
-    C
-
-    A --> B --> C
-
-
-    subgraph B[Applications]
-        direction LR
-        B1((ARSandbox<br/><code>vrui-vr/arsandbox</code>))
-        B2((Kinect<br/><code>vrui-vr/kinect</code>))
-        B3((LiDAR Viewer<br/><code>vrui-vr/lidarviewer</code>))
-        B4((3D Visualizer<br/><code>vrui-vr/3dvisualizer</code>))
-        B5((Etc))
-    end
-
-    subgraph C[VR Modalities]
-        direction LR
-        C1[<img src="img/ARSandbox.jpg" width="80" height="80"/><br/>Sandbox]
-        C2[<img src="img/VR_keckcaves.jpg" width="60" height="60"/><br/>CAVE]
-        C3[<img src="img/VR_goggles.png" width="60" height="60"/><br/>Headset]
-        C4[<img src="img/VR_laptop.jpg" width="60" height="60"/><br/>Laptop/PC]
-    end
-
-    click A "https://github.com/vrui-vr/vrui" "Vrui"
-    click B1 "https://github.com/vrui-vr/arsandbox" "ARSandbox"
-    click B2 "https://github.com/vrui-vr/kinect" "Kinect"
-    click B3 "https://github.com/vrui-vr/lidarviewer" "LiDAR Viewer"
-    click B4 "https://github.com/vrui-vr/3dvisualizer" "3D Visualizer"
-
-```
-
 ## Vrui Developer Toolkit Architecture
 
 Vrui supports the development of correct, portable, and usable applications across various environments, from desktop systems to CAVEs or head-mounted displays, and Augmented Reality systems.
