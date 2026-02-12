@@ -2,7 +2,7 @@
 
 First off, thank you for taking the time to contribute!
 
-This guide explains how outside contributors can report issues, submit fixes, create feature branches, and open PRs. Following these steps keeps contributions predictable and reviewable, and makes it easier for us (the VRUI maintainers) to review and merge your work.
+This guide explains how outside contributors can report issues, submit fixes, create feature branches, and open PRs. Following these steps keeps contributions predictable and reviewable, and makes it easier for us (the Vrui maintainers) to review and merge your work.
 
 See the [Table of Contents](#table-of-contents) for details regarding how Vrui contributions are handled. Please make sure to read relevant sections before making your contribution. We look forward to your contributions!
 
