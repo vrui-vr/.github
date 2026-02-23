@@ -1,6 +1,6 @@
 # Vrui Governance
 
-The Vrui Ogranization develops and deploys open source software for collaborative, 3D data visualization and analysis in a range of VR/XR environemnts.
+The Vrui Ogranization develops and deploys open source software for collaborative, 3D data visualization and analysis in a range of VR/XR environments.
 
 The software developed and maintained by the Vrui Organization is released under the MIT (or similarly permissive) open source license, developed openly, and hosted in public GitHub repositories under the [Vrui:  Virtual Reality User Inteface organization](https://github.com/vrui-vr). Examples of Project Software include the [Vrui Developer Tookit](https://github.com/vrui-vr/vrui), and the [3D LIDAR Viewer](https://github.com/vrui-vr/lidarviewer).
 
